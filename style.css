@@ -220,7 +220,7 @@ footer {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 708px) {
 
     body {
         display: block;
@@ -232,6 +232,10 @@ footer {
         padding-top: 80px;
         padding-bottom: 0;
     }
+
+     header {
+         padding-left: px;
+     }
         .hero h1 {
         font-size: 1.6rem;
     }
@@ -241,5 +245,6 @@ footer {
     }
 
 }
+
 
 
