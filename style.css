@@ -124,7 +124,16 @@ padding: 0%;
     opacity: 0.9;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
+    main {
+        align-items: flex-start;
+        padding-bottom: 0;
+    }
+
+    body {
+        min-height: auto;
+    }
+
     .hero h1 {
         font-size: 1.6rem;
     }
@@ -227,4 +236,5 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: auto;
+
 }
