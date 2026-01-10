@@ -153,7 +153,6 @@ h2{
     border: 2px solid var(--primary-color);
 
     border-radius: 8px;
-    margin-right: 20px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s;
@@ -240,6 +239,7 @@ footer {
     }
 
 }
+
 
 
 
