@@ -124,25 +124,6 @@ padding: 0%;
     opacity: 0.9;
 }
 
-@media (max-width: 768px) {
-    main {
-        align-items: flex-start;
-        padding-bottom: 0;
-    }
-
-    body {
-        min-height: auto;
-    }
-
-    .hero h1 {
-        font-size: 1.6rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1rem;
-    }
-}
-
 
 h1 {
     text-align: center;
@@ -238,3 +219,27 @@ footer {
     margin-top: auto;
 
 }
+
+@media (max-width: 768px) {
+
+    body {
+        display: block;
+        min-height: auto;
+    }
+
+    main {
+        display: block;
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+        .hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+}
+
+
