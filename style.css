@@ -223,29 +223,24 @@ footer {
 @media (max-width: 768px) {
 
     body {
-        display: block;
-        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
 
     main {
         display: block;
+        flex: none;
         padding-top: 80px;
         padding-bottom: 0;
     }
 
     footer {
-        margin-top: 0;
-    }
-
-        .hero h1 {
-        font-size: 1.6rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1rem;
+        margin-top: auto;
     }
 
 }
+
 
 
 
