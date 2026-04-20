@@ -40,18 +40,19 @@
   }
 }
 
-.popup-content button:hover {
-  background: #25D366;
-}
-
 .popup-content button {
   margin-top: 15px;
   padding: 10px 20px;
   border: none;
-  background: #25D366;
+  background: var(--secondary-color);
   color: white;
   border-radius: 6px;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.popup-content button:hover {
+  background: var(--primary-color);
 }
 
 * {
