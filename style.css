@@ -41,7 +41,7 @@
 }
 
 .popup-content button:hover {
-  background: var(--secondary-color);
+  background: #25D366;
 }
 
 .popup-content button {
