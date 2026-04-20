@@ -4,6 +4,15 @@
     --tertiary-color: #FAF9F6;  /* bege claro */
 }
 
+#sucesso {
+  display: none;
+  padding: 40px 20px;
+  text-align: center;
+  background: #e8f5e9;
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 12px;
+}
 
 * {
     margin: 0;
