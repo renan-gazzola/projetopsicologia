@@ -82,7 +82,22 @@
     <a href="https://wa.me/5551999999999" class="hero-btn">
         Falar no WhatsApp
     </a>
-</section> 
+</section>
+
+    <section id="sucesso">
+  <h2>✅ Mensagem enviada!</h2>
+  <p>Entraremos em contato pelo WhatsApp em breve.</p>
+</section>
+
+<script>
+if (window.location.hash === "#sucesso") {
+  const secao = document.getElementById("sucesso");
+  if (secao) {
+    secao.style.display = "block";
+    secao.scrollIntoView({ behavior: "smooth" });
+  }
+}
+</script>
 </main>
 
 <footer>
