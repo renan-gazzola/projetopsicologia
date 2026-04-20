@@ -93,7 +93,6 @@
   <div class="popup-content">
     <h2>✅ Mensagem enviada!</h2>
     <p>Entraremos em contato pelo WhatsApp em breve.</p>
-
     <button onclick="fecharPopup()">Fechar</button>
   </div>
 </div>
@@ -103,12 +102,17 @@ function fecharPopup() {
   document.getElementById("popup-sucesso").style.display = "none";
 }
 
+const popup = document.getElementById("popup-sucesso");
+
 if (window.location.hash === "#sucesso") {
-  const popup = document.getElementById("popup-sucesso");
-  if (popup) {
-    popup.style.display = "flex";
-  }
+  popup.style.display = "flex";
 }
+
+popup.addEventListener("click", (e) => {
+  if (e.target === popup) {
+    fecharPopup();
+  }
+});
 </script>
 
 </body>
