@@ -83,27 +83,33 @@
         Falar no WhatsApp
     </a>
 </section>
-
-    <section id="sucesso">
-  <h2>✅ Mensagem enviada!</h2>
-  <p>Entraremos em contato pelo WhatsApp em breve.</p>
-</section>
-
-<script>
-if (window.location.hash === "#sucesso") {
-  const secao = document.getElementById("sucesso");
-  if (secao) {
-    secao.style.display = "block";
-    secao.scrollIntoView({ behavior: "smooth" });
-  }
-}
-</script>
 </main>
 
 <footer>
     <p>Site demonstrativo para portfólio</p>
 </footer>
 
+<div id="popup-sucesso" class="popup">
+  <div class="popup-content">
+    <h2>✅ Mensagem enviada!</h2>
+    <p>Entraremos em contato pelo WhatsApp em breve.</p>
+
+    <button onclick="fecharPopup()">Fechar</button>
+  </div>
+</div>
+
+<script>
+function fecharPopup() {
+  document.getElementById("popup-sucesso").style.display = "none";
+}
+
+if (window.location.hash === "#sucesso") {
+  const popup = document.getElementById("popup-sucesso");
+  if (popup) {
+    popup.style.display = "flex";
+  }
+}
+</script>
+
 </body>
 </html>
-
