@@ -82,38 +82,12 @@
     <a href="https://wa.me/5551999999999" class="hero-btn">
         Falar no WhatsApp
     </a>
-</section>
+</section> 
 </main>
 
 <footer>
     <p>Site demonstrativo para portfólio</p>
 </footer>
-
-<div id="popup-sucesso" class="popup">
-  <div class="popup-content">
-    <h2>✅ Mensagem enviada!</h2>
-    <p>Entraremos em contato pelo WhatsApp em breve.</p>
-    <button onclick="fecharPopup()">Fechar</button>
-  </div>
-</div>
-
-<script>
-function fecharPopup() {
-  document.getElementById("popup-sucesso").style.display = "none";
-}
-
-const popup = document.getElementById("popup-sucesso");
-
-if (window.location.hash === "#sucesso") {
-  popup.style.display = "flex";
-}
-
-popup.addEventListener("click", (e) => {
-  if (e.target === popup) {
-    fecharPopup();
-  }
-});
-</script>
 
 </body>
 </html>
